@@ -30,6 +30,71 @@
     border-radius: 8px;
 }
 
+.modal__cancel-button {
+    width: 156px;
+    height: 52px;
+    position: relative;
+    left: 176px;
+    padding: 0;
+    border-radius: 8px;
+    border-style: solid;
+    background-color: #FFFFFF;
+}
+
+.modal__cancel-button:hover {
+    cursor: pointer;
+    background-color: #212121;
+    color: #ffffff;
+}
+
+.modal__delete-button {
+    width: 156px;
+    height: 52px;
+    position: relative;
+    left: 149px;
+    padding: 0;
+    border-radius: 8px;
+    border: none;
+    background-color: #FF6565;
+}
+
+.modal__delete-button:hover {
+    cursor: pointer;
+    background-color: #FF3333;
+}
+
+.modal__delete-close-button-img {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    opacity: 100%;
+    right: -105px;
+    bottom: 38px;
+}
+
+.modal__delete-close-button-img:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.delete__buttons-container {
+    margin-top: 32px;
+    display: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #212121;
+}
+
+.modal__title-delete {
+    margin: 32px -30px;
+    font-weight: 500;
+    size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
 .modal__content-type-preview {
     padding: 0;
     position: relative;
