@@ -1,5 +1,5 @@
 import "./index.css"
-import { enableValidation, settings, resetValidation, disabledButton} from "../scripts/validation.js";
+import { enableValidation, settings, resetValidation, disabledButton } from "../scripts/validation.js";
 import Api from "../utils/Api.js"
 
 // const initialCards = [
@@ -153,6 +153,7 @@ function handleAddCardSubmit(evt) {
         api.editAvatarInfo(avatarInput.value)
             .then((data) => {
                 profileAvatar.src = data.avatar;
+                disabledButton(modalSubmitButton, settings);
                 closeModal(avatarModal);
                 avatarInput.value = "";
             })

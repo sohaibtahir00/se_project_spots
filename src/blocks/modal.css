@@ -264,4 +264,36 @@
         max-height: 100vh;
     }
 
+    .modal__title-delete {
+        text-align: center;
+        font-size: 20px;
+        margin: 10px 0 34px;
+    }
+
+    .modal__delete-button {
+        width: 100%;
+        left: 1px;
+    }
+
+    .modal__cancel-button {
+        width: 100%;
+        left: 1px;
+        margin-top: 8px;
+    }
+
+    .modal__delete-close-button-img {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        opacity: 100%;
+        right: -105px;
+        bottom: 38px;
+    }
+
+    .modal__delete-close-button-img {
+        top: -54px;
+        right: -15px;
+        
+    }
+
 }
