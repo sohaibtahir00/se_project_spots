@@ -10,11 +10,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js",
-    publicPath: "",
+    publicPath: "./",
   },
 
-  mode: "development",
-  devtool: "inline-source-map",
+  mode: "production",
+  devtool: "source-map",
   stats: "errors-only",
   devServer: {
     static: path.resolve(__dirname, "./dist"),
@@ -30,7 +30,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: "babel-loader",
-        exclude: "/node_modules/",
+        exclude: /node_modules/,
       },
       {
         test: /\.css$/,
@@ -60,4 +60,3 @@ module.exports = {
     new MiniCssExtractPlugin(),
   ],
 };
-
