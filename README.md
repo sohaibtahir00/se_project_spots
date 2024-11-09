@@ -1,23 +1,51 @@
-# Spots
+SE Project: Spots 🌐
+An image sharing website where users can upload, share, and interact with images. This project is built with a focus on responsive design, user-friendly features, and seamless integration with modern web technologies.
 
-An image sharing website.
+📜 Table of Contents
 
-## Description 
+- Features
+- Technologies
+- Project Structure
+- Contributing
 
-This website is made to share images online, people can post their images with a little bit of description with it while others can see it and like it.
+🌟 Features
 
-* [Description Video Link](https://drive.google.com/file/d/15OdQWtJd1Xyh8A2HrS1Uia4fvIid0_ml/view?usp=sharing)
+- Image Upload: Users can upload and share images with the community.
+- Like and Unlike Images: Users can like or unlike images.
+- Profile Editing: Update user profile information and avatar.
+- Responsive Design: Works seamlessly on desktop and mobile devices.
 
-## Tech Stack
+🛠️ Technologies
 
-* HTML
-* CSS  
-* Bem Principles
-* Flexbox
-* Responsive Design  
-     
-## Deployment
+- HTML
+- CSS
+- JavaScript (ES6)
+- Webpack
+- Bem Principles
+- Flexbox
+- Responsive Design
 
-This website it deployed to Github Pages
+🗂️ Project Structure
+se_project_spots/
+├── dist/ # Built files
+├── src/
+│ ├── components/ # JavaScript components
+│ ├── images/ # Image assets
+│ ├── pages/ # Main JavaScript entry points
+│ ├── styles/ # CSS files
+│ └── index.html # Main HTML file
+├── .gitignore
+├── package.json
+├── webpack.config.js
+└── README.md
 
-* [Deployment Link](https://sohaibtahir00.github.io/se_project_spots/)
+🤝 Contributing
+Contributions are welcome! To contribute:
+
+- Fork the repository.
+- Create a new branch (git checkout -b feature/your-feature).
+- Make your changes and commit (git commit -m 'Add some feature').
+- Push to the branch (git push origin feature/your-feature).
+- Open a pull request.
+
+[Deployment Link](https://sohaibtahir00.github.io/se_project_spots/)
